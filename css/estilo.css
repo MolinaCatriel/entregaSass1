@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden; }
+
+.imagenDestaca:hover {
+  transform: scale(1.2);
+  transition: all 0.5s ease; }
+
+/*Inicio estilo header*/
+.textoNav a {
+  font-size: 18px;
+  font-weight: bold;
+  color: white; }
+
+.navbar-collapse {
+  flex-grow: inherit; }
+
+/*Fin estilo header*/
+/*Inicio estilo contacto*/
+.mapaEntregas:hover {
+  transform: scale(1.2);
+  transition: all 0.5s ease; }
+
+.accordion {
+  max-width: 90%;
+  margin: 100px; }
+
+#contenedor-formulario {
+  border-radius: 5px;
+  max-width: 90%;
+  margin: 100px; }
+
+/*Fin estilo contacto*/
+/*Inicio Estilo del footer*/
+.whatsapp {
+  position: fixed;
+  bottom: 10px;
+  right: 10px; }
+  .whatsapp:hover {
+    transform: scale(1.2);
+    transition: all 0.5s ease; }
+
+.redes img {
+  padding: 10px 5px; }
+  .redes img:hover {
+    transform: scale(1.2);
+    transition: all 0.5s ease; }
+
+h5 {
+  color: white;
+  text-align: center;
+  font-size: 1rem; }
+
+/*Fin Estilo del footer*/
+@media (max-width: 768px) {
+  #intro {
+    width: 90% !important; } }

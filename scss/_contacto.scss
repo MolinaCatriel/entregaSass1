@@ -1,0 +1,18 @@
+/*Inicio estilo contacto*/
+.mapaEntregas:hover{
+    transform: $animacion_img;
+    transition: $transicion_img;
+}
+.accordion{
+    max-width: 90%;
+    margin: 100px;
+}
+
+
+#contenedor-formulario{
+    
+    border-radius: 5px;
+    max-width: 90%;
+    margin: 100px;
+}
+/*Fin estilo contacto*/

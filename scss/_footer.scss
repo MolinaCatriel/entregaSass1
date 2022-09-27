@@ -1,0 +1,24 @@
+/*Inicio Estilo del footer*/
+.whatsapp{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    &:hover{
+        transform: $animacion_img;
+        transition: $transicion_img;
+    }
+}
+
+.redes img{
+    padding:  10px 5px;  
+    &:hover{
+        transform: $animacion_img;
+        transition: $transicion_img;
+    }    
+}
+h5{
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+}
+/*Fin Estilo del footer*/
