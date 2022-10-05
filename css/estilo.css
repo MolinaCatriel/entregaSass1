@@ -8,9 +8,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden; }
 
-.imagenDestaca:hover {
-  transform: scale(1.2);
-  transition: all 0.5s ease; }
+.imagenDestaca {
+  border: 3px black solid; }
+  .imagenDestaca:hover {
+    transform: scale(1.2);
+    transition: all 0.5s ease; }
 
 /*Inicio estilo header*/
 .textoNav a {
@@ -23,9 +25,11 @@ body {
 
 /*Fin estilo header*/
 /*Inicio estilo contacto*/
-.mapaEntregas:hover {
-  transform: scale(1.2);
-  transition: all 0.5s ease; }
+.mapaEntregas {
+  border-right: 2px black  solid; }
+  .mapaEntregas:hover {
+    transform: scale(1.2);
+    transition: all 0.5s ease; }
 
 .accordion {
   max-width: 90%;

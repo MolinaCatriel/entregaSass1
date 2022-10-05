@@ -1,7 +1,10 @@
 /*Inicio estilo contacto*/
-.mapaEntregas:hover{
+.mapaEntregas{
+    border-right: 2px black  solid;
+    &:hover{
     transform: $animacion_img;
     transition: $transicion_img;
+    }
 }
 .accordion{
     max-width: 90%;
